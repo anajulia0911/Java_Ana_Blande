@@ -24,10 +24,10 @@ public class Engajamento{
             }
         }
 
-        double mediaCurtidas = (double) totalCurtidas/numPublicacoes;
-        System.out.printf("A média das curtidas é: %.1f\n " + mediaCurtidas);
-
-        System.out.printf("Número de publicações: %d\n", numPublicacoes);
+        double mediaCurtidas = (double) totalCurtidas / numPublicacoes;
+        System.out.printf("Média de curtidas = %.1f\n", mediaCurtidas);
+        System.out.printf("Número de publicações = %d\n", numPublicacoes);
+        entrada.close();
 
 
         entrada.close();
