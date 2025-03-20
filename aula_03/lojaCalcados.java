@@ -20,7 +20,7 @@ public class lojaCalcados{
         }
 
         for (int i = 0; i < preco.length; i++){
-            System.out.printf("O preço do produto com desconto é: %.2f\n " , preco[i] );
+            System.out.printf("O preço do produto %d com desconto é: %.2f\n ", i+1 , preco[i] );
         }
 
         entrada.close();
